@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>furnest ui</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alatsi&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans+JP:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="maincontainer">
+        <div class="navbar">
+            <h2>FURNEST</h2>
+            <img src="./Screenshot 2024-08-12 121329.png" alt="">
+            <i class="fa-solid fa-bars" style="color: #6295bc;"></i>
+        </div>
+        <div class="herosection">
+            <div class="left">
+                <h1>Checkout</h1>
+                <h4>Shipping Information</h4>
+                <div class="btn">
+                    <button><i class="fa-solid fa-circle-dot" style="color: #74C0FC;"></i><i class="fa-solid fa-truck"
+                            style="color: #74C0FC;"></i>Delivery</button>
+                    <button id="bttn"><i class="fa-regular fa-circle" style="color: #323539;"></i><i
+                            class="fa-solid fa-cube" style="color: #31393f;"></i>Pick up</button>
+                </div>
+                <form>
+                    <label>Full name <em>*</em></label>
+                    <input placeholder="Enter full name">
+                    <label>Email address <em>*</em></label>
+                    <input placeholder="Enter email address">
+                    <label>Phone number <em>*</em></label>
+                    <div class="pn">
+                        <img src="./download.png" alt="">&nbsp;
+                        <i class="fa-solid fa-angle-down" style="color: #4a4a4a;"></i>&nbsp;
+                        <input id="inp" placeholder="Enter phone number">
+                    </div>
+                    <label>Country <em>*</em></label>
+                    <input placeholder="Choose state">
+                    <span>
+                        <div class="i1">
+                            <label>City</label>
+                            <input placeholder="Enter City">
+                        </div>
+                        <div class="i2">
+                            <label>State</label>
+                            <input placeholder="Enter state">
+                        </div>
+                        <div class="i3">
+                            <label>Zip code</label>
+                            <input placeholder="Enter Zip code">
+                        </div>
+                    </span>
+                    <span id="spn">
+                        <input type="checkbox">&nbsp;
+                        <p>I have read and agree to the Term and Conditions</p>
+                    </span>
+                </form>
+            </div>
+            <div class="right">
+                <h4>Review your cart</h4>
+                <div class="box">
+                    <div class="l1">
+                        <img src="./images-removebg-preview (8).png" alt="">
+                    </div>
+                    <div class="r1">
+                        <h6>DuoComfort Sofa Premium</h6>
+                        <p>tx</p>
+                        <h6>$20.00</h6>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="l1">
+                        <img src="./images-removebg-preview (7).png" alt="">
+                    </div>
+                    <div class="r1">
+                        <h6>DuoComfort Sofa Premium</h6>
+                        <p>tx</p>
+                        <h6>$20.00</h6>
+                    </div>
+                </div>
+
+                <div class="ds1">
+                    <span>
+                        <img src="./ticket-discount.png" alt="">&nbsp;
+                        <input id="inp" placeholder="Discount code">
+                    </span>
+                    <a href="">Apply</a>
+                </div>
+
+                <div class="total">
+                    <div class="t1">
+                        <h6 class="h66">Subtotal</h6>
+                        <h6>$45.00</h6>
+                    </div>
+                    <div class="t2">
+                        <h6 class="h66">Shipping</h6>
+                        <h6>$5.00</h6>
+                    </div>
+                    <div class="t3">
+                        <h6 class="h66">Discount</h6>
+                        <h6>-$10.00</h6>
+                    </div>
+                    <div class="t4">
+                        <h6>Totol</h6>
+                        <h6>$40.00</h6>
+                    </div>
+                </div>
+
+                <button>Pay now</button>
+                <span>
+                    <i class="fa-solid fa-lock" style="color: #74C0FC;"></i>
+                    <h6>Secure Checkout-SSL Encrypted</h6>
+                </span>
+                <p id="p11">Ensuring your financial and personal details are secure <br>during every transaction.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

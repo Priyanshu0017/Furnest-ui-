@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    font-family: "Mukta", sans-serif;
+}
+
+.maincontainer {
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 90px;
+    border-bottom: 2px solid rgb(234, 225, 225);
+}
+
+.navbar i {
+    display: none;
+}
+
+.navbar img {
+    width: 30%;
+}
+
+.navbar h2 {
+    color: blue;
+}
+
+.herosection {
+    height: 92%;
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    height: 100%;
+    width: 55%;
+    padding-block: 30px;
+    padding-inline: 60px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid rgb(234, 225, 225);
+    ;
+}
+
+.left span {
+    display: flex;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.left button {
+    width: 48%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.btn button i {
+    margin-right: 12px;
+}
+
+.btn button:first-child {
+    color: blue;
+    border: 1px solid blue;
+}
+
+.left form {
+    display: flex;
+    flex-direction: column;
+}
+
+.left h1 {
+    margin-bottom: 40px;
+}
+
+.left h4 {
+    margin-bottom: 20px;
+}
+
+.right {
+    height: 100%;
+    width: 45%;
+}
+
+.i1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.i2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.i3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.left form label {
+    font-size: 0.8em;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.left form label em {
+    color: red;
+}
+
+.left form input {
+    height: 40px;
+    width: 100;
+    border-radius: 5px;
+    padding-inline: 10px;
+    margin-bottom: 5px;
+    border: 2px solid rgb(234, 225, 225);
+}
+
+#spn {
+    display: flex;
+    align-items: center;
+}
+
+#spn p {
+    font-size: .8em;
+}
+
+.pn {
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(234, 225, 225);
+    padding-inline: 5px;
+    border-radius: 5px;
+
+}
+
+.pn img {
+    width: 5%;
+    height: 50%;
+}
+
+#inp {
+    border: none;
+}
+
+.pn input:focus {
+    visibility: hidden;
+}
+
+#bttn {
+    border: 2px solid rgb(234, 225, 225);
+}
+
+.i1 {
+    margin-right: 10px;
+}
+
+.i2 {
+    margin-right: 10px;
+}
+
+.right {
+    padding-inline: 60px;
+    margin-right: 40px;
+    padding-top: 110px;
+}
+
+.right h4 {
+    margin-bottom: 10px;
+}
+
+.box {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.l1 img {
+    height: 100%;
+    margin-right: 10px;
+}
+
+.box h6 {
+    font-size: 0.8em;
+}
+
+.box p {
+    font-size: 0.7em;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.ds1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(234, 225, 225);
+    border-radius: 5px;
+}
+
+.ds1 span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-top: 8px;
+}
+
+.ds1 a {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: .9em;
+}
+
+.h66 {
+    color: gray;
+}
+
+.t1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.t2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.t3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.t4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.t4 h6 {
+    font-size: small;
+    font-weight: 700;
+}
+
+.right button {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(51, 124, 197);
+    color: white;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.right span {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.right span h6 {
+    font-size: .8em;
+    margin-left: 10px;
+}
+
+.right p {
+    font-size: .8em;
+    line-height: 15px;
+    color: gray;
+}
+
+.total {
+    margin-bottom: 20px;
+}
+
+.ds1 span input:focus {
+    visibility: hidden;
+}
+
+@media (max-width:768px) {
+    .navbar {
+        padding-inline: 50px;
+    }
+
+    .navbar img {
+        display: none;
+    }
+
+    .navbar i {
+        display: inline;
+    }
+
+    .herosection {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .right {
+        width: 100%;
+    }
+    .right h4{
+        font-size: 1.3em;
+        margin-bottom: 20px;
+    }
+    .left h1{
+        margin-bottom: 20px;
+    }
+}
